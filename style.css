@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(41, 243, 149);
+}
+<<<<<<< HEAD
+  header nav {background-color: green;
+font-size: 20px;
+text-decoration-style: none;}
+nav ul{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    list-style-type: none;
+    font-size: 30px;
+
+    
+}
+
+nav a:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+=======
+>>>>>>> b87b00466fd4a38e862fb52d6549abfd3dec9eb6
