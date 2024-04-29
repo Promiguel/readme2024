@@ -1,6 +1,20 @@
 body{
-    background-color: aqua;
+    background-color: rgb(41, 243, 149);
 }
-nav{
-    sty
+  header nav {background-color: green;
+font-size: 20px;
+text-decoration-style: none;}
+nav ul{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    list-style-type: none;
+    font-size: 30px;
+
+    
+}
+
+nav a:hover{
+    background-color: black;
+    color: aliceblue;
+
 }

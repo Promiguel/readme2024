@@ -1,0 +1,18 @@
+body{background-color: lch(from color l c h);}
+nav{background-color: rgb(1, 255, 115);
+padding: 20px;
+font-size: 20px;
+}
+nav a{text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 8px;
+    
+}
+nav a:hover{
+    background-color: aliceblue;
+    padding: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin: 1px;
+    transition: background-color 0.5s ease;
+}
