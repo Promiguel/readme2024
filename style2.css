@@ -1,14 +1,14 @@
 body{background-color: lch(from color l c h);}
-nav{background-color: rgb(1, 255, 115);
+header nav{background-color: rgb(1, 255, 115);
 padding: 20px;
 font-size: 20px;
 }
-nav a{text-decoration: none;
+ header nav a{text-decoration: none;
     color: rgb(0, 0, 0);
     margin-right: 8px;
     
 }
-nav a:hover{
+ header nav a:hover{
     background-color: aliceblue;
     padding: 20px;
     padding-right: 3px;
