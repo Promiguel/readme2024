@@ -1,0 +1,82 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.aside {
+    flex: 0 0 30%; 
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.imagen1 {
+    width: 100%;
+}
+
+.imgta {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgenuni {
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.titulo {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.texto1 {
+    font-size: 1.5em;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
