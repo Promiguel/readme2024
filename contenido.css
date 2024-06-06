@@ -52,8 +52,9 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
     margin-right: 20px;
-    margin-top: 20px;
-    padding-bottom: 40px
+    margin-top: 20px; /
+    padding-bottom: 100px; 
+    position: relative;
 }
 .content h1 {
     color: #ff9933; /* Naranja */
@@ -89,6 +90,12 @@ nav ul li a {
     align-items: flex-start;
 }
 
+.main-container {
+    min-height: 100vh; /* Mínimo de altura igual al alto de la ventana */
+    margin-bottom: -150px; /* Margen negativo igual a la altura del footer */
+    position: relative; /* Posicionamiento relativo */
+}
+
 .example {
     background-color: #ffffcc; /* Color de fondo del cuadro */
     padding: 10px; /* Espaciado interno del cuadro */
@@ -104,6 +111,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-   
-    margin-bottom: 1px; 
+
 }
