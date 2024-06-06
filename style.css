@@ -23,11 +23,12 @@ main{
     height: 75vh;
 }
 
+
 footer{
     margin-right:  30px;
     padding: 30px;
     text-align: center;
     background-color: black;
     color:rgb(1, 255, 115) ;
-    
+    margin-top: auto;
 }
