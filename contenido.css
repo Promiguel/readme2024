@@ -1,25 +1,26 @@
-  /* Estilos generales */
-  body {
-    font-family: Arial, sans-serif;
+/* Estilos generales */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffe6b3; /* Fondo amarillo claro */
 }
 /* Estilos del encabezado */
 header {
-    background-color: #ffffff;
-    color: #333;
-    padding: 20px 0;
+    background-color: #ff9933; /* Naranja */
+    color: white;
+    padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #cc6600; /* Borde naranja oscuro */
 }
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 36px; /* Tamaño de fuente grande */
 }
 /* Estilos de la barra de navegación */
 nav {
-    background-color: #f3994b;
-    color: #fff;
+    background-color: #ffcc66; /* Amarillo */
+    color: #663300; /* Marrón oscuro */
     padding: 10px 0;
     text-align: center;
 }
@@ -33,9 +34,10 @@ nav ul li {
     margin: 0 10px;
 }
 nav ul li a {
-    color: #fff;
+    color: #663300; /* Marrón oscuro */
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px; /* Tamaño de fuente medio */
 }
 /* Estilos del contenido */
 #contenido {
@@ -50,9 +52,10 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 .content h1 {
-    color: #333;
+    color: #ff9933; /* Naranja */
     text-align: center;
     margin-bottom: 20px;
 }
@@ -67,19 +70,34 @@ nav ul li a {
     margin-bottom: 10px;
 }
 .sidebar {
-    flex: 0 0 30%;
+    flex: 0 0 25%;
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
+   
 }
 .sidebar img {
     width: 100%;
     border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.example {
+    background-color: #ffffcc; /* Color de fondo del cuadro */
+    padding: 10px; /* Espaciado interno del cuadro */
+    border-radius: 5px; /* Borde redondeado del cuadro */
+    margin-bottom: 20px; /* Espacio entre el ejemplo y el siguiente elemento */
 }
 /* Estilos del pie de página */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ff9933; /* Naranja */
+    color: white;
     padding: 10px 0;
     text-align: center;
     position: fixed;
