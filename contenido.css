@@ -53,6 +53,7 @@ nav ul li a {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 20px;
+    padding-bottom: 40px
 }
 .content h1 {
     color: #ff9933; /* Naranja */
@@ -98,9 +99,11 @@ nav ul li a {
 footer {
     background-color: #ff9933; /* Naranja */
     color: white;
-    padding: 10px 0;
+    padding: 3px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+   
+    margin-bottom: 1px; 
 }
