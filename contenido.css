@@ -1,5 +1,5 @@
- /* Estilos generales */
- body {
+  /* Estilos generales */
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ header h1 {
 }
 /* Estilos de la barra de navegación */
 nav {
-    background-color: #333;
+    background-color: #f3994b;
     color: #fff;
     padding: 10px 0;
     text-align: center;
