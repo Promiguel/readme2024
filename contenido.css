@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6b3; /* Fondo amarillo claro */
+}
+/* Estilos del encabezado */
+header {
+    background-color: #ff9933; /* Naranja */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #cc6600; /* Borde naranja oscuro */
+}
+header h1 {
+    margin: 0;
+    font-size: 36px; /* Tamaño de fuente grande */
+}
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #ffcc66; /* Amarillo */
+    color: #663300; /* Marrón oscuro */
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #663300; /* Marrón oscuro */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Tamaño de fuente medio */
+}
+/* Estilos del contenido */
+#contenido {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.content {
+    flex: 0 0 70%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px; /
+    padding-bottom: 100px; 
+    position: relative;
+}
+.content h1 {
+    color: #ff9933; /* Naranja */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content p {
+    text-align: justify;
+    line-height: 1.6;
+}
+.content ul {
+    margin-left: 20px;
+}
+.content ul li {
+    margin-bottom: 10px;
+}
+.sidebar {
+    flex: 0 0 25%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+   
+}
+.sidebar img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-container {
+    min-height: 100vh; /* Mínimo de altura igual al alto de la ventana */
+    margin-bottom: -150px; /* Margen negativo igual a la altura del footer */
+    position: relative; /* Posicionamiento relativo */
+}
+
+.example {
+    background-color: #ffffcc; /* Color de fondo del cuadro */
+    padding: 10px; /* Espaciado interno del cuadro */
+    border-radius: 5px; /* Borde redondeado del cuadro */
+    margin-bottom: 20px; /* Espacio entre el ejemplo y el siguiente elemento */
+}
+/* Estilos del pie de página */
+footer {
+    background-color: #ff9933; /* Naranja */
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
