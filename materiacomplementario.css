@@ -52,3 +52,25 @@ footer {
     border-left: 160px solid rgb(204, 198, 198);
     border-right: 160px solid rgb(204, 198, 198);
 }
+aside {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.large-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.large-image {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .large-image {
+        max-width: 100%;
+    }
+}
