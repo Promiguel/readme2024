@@ -1,5 +1,6 @@
-body{background-color: lch(from color l c h);}
-header nav{background-color: rgb(1, 255, 115);
+body{ font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: lch(from color l c h);}
+header nav{background-color: #f3994b;
 padding: 20px;
 font-size: 20px;
 }
@@ -27,7 +28,7 @@ footer{
     margin-right:  30px;
     padding: 30px;
     text-align: center;
-    background-color: black;
-    color:rgb(1, 255, 115) ;
+    background-color: #ff9933;
+    color: white;
     
 }

@@ -1,12 +1,13 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffe6b3;
 }
 /* Estilos del encabezado */
 header {
-    background-color: #ffffff;
+    background-color: #ff9933;
     color: hsl(40, 95%, 63%);
     padding: 20px 0;
     text-align: center;
@@ -16,8 +17,8 @@ header h1 {
 }
 /* Estilos de la barra de navegación */
 nav {
-    background-color:hsl(13, 97%, 63%);
-    color: #fff;
+    background-color: #ffcc66; /* Amarillo */
+    color: #663300; /* Marrón oscuro */
     padding: 10px 0;
     
 }
@@ -37,8 +38,8 @@ nav ul li a {
 }
 /* Estilos del pie de página */
 footer {
-    background-color: hsl(0, 0%, 4%);
-    color: #fff;
+    background-color: #ff9933; /* Naranja */
+    color: white;
     padding: 5px 0;
     text-align: center;
     position: fixed;

@@ -1,10 +1,16 @@
-bbody{background-color: lch(from color l c h);}
-header nav{background-color: rgb(1, 255, 115);
+body{background-color: lch(from color l c h);font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6b3;
+}
+header nav{background-color: #ff9933;
+    color: hsl(40, 95%, 63%);
 padding: 20px;
 font-size: 20px;
 }
  header nav a{text-decoration: none;
-    color: rgb(0, 0, 0);
+    background-color: #ffcc66; /* Amarillo */
+    color: #663300; 
     margin-right: 8px;
     
 }
@@ -21,13 +27,49 @@ font-size: 20px;
 main{
     background-color: rgb(248, 244, 239);
     height: 75vh;
+    padding: 20px;
 }
 
-footer{
-    margin-right:  30px;
-    padding: 30px;
+footer {
+    background-color: #ff9933; /* Naranja */
+    color: white;
+    padding: 5px 0;
     text-align: center;
-    background-color: black;
-    color:rgb(1, 255, 115) ;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.box {
+    border: 1px solid #f7f58a;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+}
+
+.video img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.box ul li {
+    margin-bottom: 10px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.box ul li a:hover {
+    color: #ff0000;
 }
