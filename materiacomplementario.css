@@ -64,13 +64,14 @@ aside {
 }
 
 .large-image {
-    max-width: 45%;
+    max-width: 10%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .large-image {
         max-width: 100%;
     }
 }
+.box{ background-color: #ff9933; }
