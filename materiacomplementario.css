@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #ffe6b3;
 }
+
 /* Estilos del encabezado */
 header {
     background-color: #ff9933;
@@ -12,30 +13,35 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+
 header h1 {
     margin: 0;
 }
+
 /* Estilos de la barra de navegación */
 nav {
     background-color: #ffcc66; /* Amarillo */
     color: #663300; /* Marrón oscuro */
     padding: 10px 0;
-    
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 /* Estilos del pie de página */
 footer {
     background-color: #ff9933; /* Naranja */
@@ -46,17 +52,29 @@ footer {
     bottom: 0;
     width: 100%;
 }
-/* Estilos del contenido */
-#contenido  {
+
+/* Estilos del contenido y layout */
+#contenido {
+    display: flex;
+    flex-direction: row-reverse; /* Coloca el aside a la derecha */
+    justify-content: space-between;
     padding: 103px;
     border-left: 160px solid rgb(204, 198, 198);
     border-right: 160px solid rgb(204, 198, 198);
 }
+
+main {
+    flex: 3;
+    padding: 20px;
+}
+
 aside {
+    flex: 1;
     padding: 20px;
     background-color: #f0f0f0;
 }
 
+/* Estilos para las imágenes grandes */
 .large-images {
     display: flex;
     justify-content: space-around;
@@ -64,14 +82,17 @@ aside {
 }
 
 .large-image {
-    max-width: 10%;
+    max-width: 30%; /* Reduce el tamaño máximo de las imágenes */
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .large-image {
         max-width: 100%;
     }
 }
-.box{ background-color: #ff9933; }
+
+.box {
+    background-color: #ff9933;
+}
